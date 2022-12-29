@@ -1,19 +1,8 @@
-# Variables in Python
+# Variables
 
-print("Welcome!!!")
+age = 17
+price = 50.55
+first_name = "Jimwell"
+is_online = True
 
-# Input function
-input("What is your name? ")
-
-# Print input function
-print(input("What is your name? "))
-
-# Variable
-name = input("What is your name? ")
-print("Welcome " + name)
-
-choices = "C#, Python, Java, C++"
-choice = input("Hello " + name + " availabe courses today is " + choices + " What do you like? ")
-
-print(choice + " Great!!")
-
+print(age, price, first_name, is_online)
